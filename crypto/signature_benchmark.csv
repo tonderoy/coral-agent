@@ -1,0 +1,5 @@
+Scheme,Message,Msg B,Sig B,PubKey B,Keygen ms,Sign ms,Verify ms,Overhead %
+Ed25519,Full context,2055,64,32,0.0286,0.0333,0.082,3.1144
+Ed25519,Summary,66,64,32,0.0286,0.0289,0.079,96.9697
+ML-DSA-44,Full context,2055,2420,1312,0.1118,0.661,0.1216,117.7616
+ML-DSA-44,Summary,66,2420,1312,0.1118,0.5369,0.1656,3666.6667
