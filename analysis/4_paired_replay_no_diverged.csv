@@ -1,0 +1,5 @@
+setting,complexity,n_pairs,EM_full,EM_summary,EM_change,lost_b,gained_c,mcnemar_p,F1_change,F1_CI_low,F1_CI_high,lost_but_gold_retrieved,holm_p
+single_agent,single_step,41,0.829,0.659,-0.171,7,0,0.016,-0.114,-0.205,-0.039,7,0.062
+single_agent,multi_step,26,0.692,0.615,-0.077,2,0,0.500,-0.138,-0.277,-0.031,2,1.000
+multi_agent,single_step,30,0.633,0.567,-0.067,2,0,0.500,-0.050,-0.108,-0.005,0,1.000
+multi_agent,multi_step,27,0.667,0.667,0.000,0,0,1.000,0.000,0.000,0.000,0,1.000
