@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d4f99e3-4a18-4665-a1d7-b3a0974ba2b9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/run_experiments.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intercept.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scoring.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_intercept.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/mas-context-testbed.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mas-context-testbed.iml" afterDir="false" />
+    <list default="true" id="9d4f99e3-4a18-4665-a1d7-b3a0974ba2b9" name="Changes" comment="From step 6">
+      <change afterPath="$PROJECT_DIR$/analyze.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/check_progress.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,23 +42,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.3394344838914112" />
-      <entry key="MS500" value="2.6895743563959362" />
-      <entry key="S2" value="5.412260108255094" />
-      <entry key="S5" value="7.144391953440894" />
-      <entry key="S10" value="7.978882723514212" />
-      <entry key="S30" value="8.636069825704517" />
-      <entry key="S60" value="8.82019104421444" />
-      <entry key="M2" value="9.05228659569693" />
-      <entry key="M5" value="10.025511233719323" />
-      <entry key="M10" value="11.043283684144926" />
-      <entry key="M15" value="11.559182605291067" />
-      <entry key="M30" value="12.201044799933602" />
-      <entry key="H1" value="12.578659870808128" />
-      <entry key="H2" value="12.783558445276558" />
-      <entry key="H4" value="12.890296245391156" />
-      <entry key="D1" value="12.981506577040284" />
-      <entry key="W1" value="12.997352906510757" />
+      <entry key="MS100" value="1.60709745650788" />
+      <entry key="MS500" value="1.9732367166137386" />
+      <entry key="S2" value="3.392068611038703" />
+      <entry key="S5" value="5.001864184086164" />
+      <entry key="S10" value="6.663194712087945" />
+      <entry key="S30" value="9.34199138196991" />
+      <entry key="S60" value="10.49502040785337" />
+      <entry key="M2" value="11.195493632346423" />
+      <entry key="M5" value="11.664482714639224" />
+      <entry key="M10" value="11.832587568582465" />
+      <entry key="M15" value="11.937490584179818" />
+      <entry key="M30" value="12.99649206258337" />
+      <entry key="H1" value="16.926062892152643" />
+      <entry key="H2" value="22.862649301433365" />
+      <entry key="H4" value="28.567600486184297" />
+      <entry key="D1" value="41.8666423139257" />
+      <entry key="W1" value="47.76993515037783" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -83,23 +80,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.3050545251666235" />
-      <entry key="MS500" value="2.6761095985920518" />
-      <entry key="S2" value="5.402159136654832" />
-      <entry key="S5" value="7.137742427908242" />
-      <entry key="S10" value="7.97485979962388" />
-      <entry key="S30" value="8.634537751887173" />
-      <entry key="S60" value="8.81939802970033" />
-      <entry key="M2" value="9.051877170054983" />
-      <entry key="M5" value="10.025329899711092" />
-      <entry key="M10" value="11.043184080250608" />
-      <entry key="M15" value="11.559113195974971" />
-      <entry key="M30" value="12.201008227945415" />
-      <entry key="H1" value="12.578641036084441" />
-      <entry key="H2" value="12.783548879107833" />
-      <entry key="H4" value="12.890291423555999" />
-      <entry key="D1" value="12.981505767882847" />
-      <entry key="W1" value="12.997352790779887" />
+      <entry key="MS100" value="1.5178668549791454" />
+      <entry key="MS500" value="1.9515955647617638" />
+      <entry key="S2" value="3.3839125051695844" />
+      <entry key="S5" value="4.996084230225078" />
+      <entry key="S10" value="6.644951247016071" />
+      <entry key="S30" value="9.295987755043114" />
+      <entry key="S60" value="10.455783840689087" />
+      <entry key="M2" value="11.169825999133051" />
+      <entry key="M5" value="11.652413781793465" />
+      <entry key="M10" value="11.826218509318856" />
+      <entry key="M15" value="11.933167260639161" />
+      <entry key="M30" value="12.99428909244797" />
+      <entry key="H1" value="16.924947327103435" />
+      <entry key="H2" value="22.862085814088633" />
+      <entry key="H4" value="28.567316516171736" />
+      <entry key="D1" value="41.86659417426623" />
+      <entry key="W1" value="47.76992822166237" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -113,6 +110,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.analyze.executor": "Run",
     "Python.intercept.executor": "Run",
     "Python.try_intercept.executor": "Run",
     "Python.try_tool.executor": "Run",
@@ -135,7 +133,31 @@
     "to.speed.mode.migration.done": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.try_intercept">
+  <component name="RunManager" selected="Python.analyze">
+    <configuration name="analyze" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mas-context-testbed" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/analyze.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="intercept" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="mas-context-testbed" />
       <option name="ENV_FILES" value="" />
@@ -211,6 +233,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.analyze" />
         <item itemvalue="Python.try_intercept" />
         <item itemvalue="Python.intercept" />
         <item itemvalue="Python.try_tool" />
@@ -232,9 +255,22 @@
       <option name="presentableId" value="Default" />
       <updated>1794975860890</updated>
     </task>
+    <task id="LOCAL-00001" summary="From step 6">
+      <option name="closed" value="true" />
+      <created>1795045252480</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1795045252480</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="From step 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="From step 6" />
   </component>
 </project>
